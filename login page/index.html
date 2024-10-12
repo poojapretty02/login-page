@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <form
+          action="https://api.web3forms.com/Login"
+          method="POST"
+          autocomplete="off"
+        >
+          <h2>Login</h2>
+          <hr />
+          <input
+            type="hidden"
+            name="access_key"
+            value="112e9724-8994-4d65-8a3b-011e2b323dad
+            "
+          />
+
+          <p>Username</p>
+          <input type="text" name="name" class="input" required />
+
+          <p>Password</p>
+          <input type="text" name="password" class="input" required />
+          <p>Gender</p>
+          <input type="radio" name="male" class="input" />male
+          <input type="radio" name="female" class="input" />female
+          <p>Phone Number</p>
+          <input type="text" name="ph" class="input" required />
+          <p>Occupation</p>
+          <input type="text" name="occ" class="input" required />
+          <p class="btn"><button>Login</button></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
